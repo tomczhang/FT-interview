@@ -1,4 +1,21 @@
-# 一个实验
+#前端面试整理
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本整理包含前端面试中大部分的基础知识。而在基础的Q&A形式之上，本整理希望能对单一问题进行不断深入的反思；另外对于不同问题，也希望能找到它们之间的联系。从而从面试题的层面上串联起整个前端知识体系。
+
+本整理分为两个部分，基础部分和进阶部分。
+
+其中基础部分有：
+
+* HTML
+* JS
+* CSS
+* HTTP
+* NodeJs
+* 流程工具
+* 杂项
+
+进阶部分有：
+
+* 框架
+* 算法
 
