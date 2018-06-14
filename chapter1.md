@@ -51,14 +51,12 @@ JS使用的是64位双精度浮点数。因为指数为11位，所以数值范�
 
 * String
 
+* Symbol
+表示独一无二的值，可以接收一个参数，用于区分 `let s = Symbol('test')`。Symbol作为属性名，只会被Object.getOwnPropertySymnbols方法返回，不会被for...of或for...in返回。
+
 
 
 **null和undefined的区别**
 null是js中用来表示空引用的特殊值，所以`typeof null = 'object'`但是它本身并不是以Object为原型建立的，所以`null instanceof Object`是false。
-
-
-
-
-
 
 
