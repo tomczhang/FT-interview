@@ -49,14 +49,40 @@ JS使用的是64位双精度浮点数。因为指数为11位，所以数值范�
 
 因为二进制和十进制相互换算时可能会出现无限循环，所以JS存在精度丢失，例如`0.1 + 0.2 != 0.3`
 
+**四舍五入方法**
+ceil，floor，round，toFixed，toPrecision
+
+**数值转换**
+Number(value)，parseInt，parseFloat
+
 * String
+
+String类型方法：
+    * 字符操作：charAt，charCodeAt，fromCharCode
+    * 字符串提取：substr，substring，slice
+    * 位置索引：indexOf，lastIndexOf
+    * 大小写转换：toLowerCase，toUpperCase
+    * 模式匹配：match，search，replace，split
+    * 其他操作：concat，trim，localeCompare
+
+* Boolean
+在JS中，所有类型的值都可以被转换为true或false。其中，空字符串，null，undefined，0和NaN是false。
+
+* Undefined
+Undefined表示一个变量最原始的状态，没有赋值的变量都是undefined。
+
+* Null
+Null表示一个对象被人为重置为空对象。所以`typeof null = 'object'`但是它本身并不是以Object为原型建立的，所以`null instanceof Object`是false。
+
 
 * Symbol
 表示独一无二的值，可以接收一个参数，用于区分 `let s = Symbol('test')`。Symbol作为属性名，只会被Object.getOwnPropertySymnbols方法返回，不会被for...of或for...in返回。
 
+* Object
+引用类型除了Object本身，还有Array，RegExp，Date，Function。
 
-
-**null和undefined的区别**
-null是js中用来表示空引用的特殊值，所以`typeof null = 'object'`但是它本身并不是以Object为原型建立的，所以`null instanceof Object`是false。
+**对象拷贝**
+浅拷贝/一级拷贝：Object.assign，[].concat
+深拷贝：Json序列化与反序列化，但是会忽略掉值为undefined的属性和函数表达式
 
 
