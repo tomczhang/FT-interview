@@ -35,8 +35,8 @@ BOM提供了与浏览器交互的方法和接口。尽管BOM只处理浏览器�
 
 **如何判断数据类型**：
     * typeof：检测基本数据类型很棒，但是检测引用类型时只能区分object，undefined和function
-    * instanceof：判断一个对象是否是某种对象的实例。会一直递归的查询到它的最终原型。不过因为基本数据类型没有父类型，全部会返回false。
-    * 
+    * instanceof：判断同一个全局作用域下，一个对象是否是某种对象的实例。会一直递归的查询到它的最终原型。不过因为基本数据类型没有父类型，全部会返回false。
+    * Object.prototype.toString.call(value) == '[object Array]': 任何值上调用Object原生的toString方法，都会返回一个[object NativeConstructorName]格式的字符串。而这个构造函数名由每个类内部的[[Class]]属性指定。这样做没有全局作用域的问题。
     
 **各数据类型知识点**
 
