@@ -1,6 +1,6 @@
 ### 1. JS的组成
 
-一个完整的JS应该有以下三部分组成：
+**组成：**
     * ECMAScript
     
 ECMAScript是脚本语言的标准，提供核心语言功能。它规定了语言的语法，类型，语句，关键字，保留字，操作符和对象。JS是ECMAScript的一个实例。ES5诞生自2009年，ES6诞生自2015年。由于之后每一年都有新的ES标准诞生（ES2016, ES2017），所以官方开始以年份而不是序号命名。
@@ -38,7 +38,7 @@ BOM提供了与浏览器交互的方法和接口。尽管BOM只处理浏览器�
     * instanceof：判断同一个全局作用域下，一个对象是否是某种对象的实例。会一直递归的查询到它的最终原型。不过因为基本数据类型没有父类型，全部会返回false。
     * Object.prototype.toString.call(value) == '[object Array]': 任何值上调用Object原生的toString方法，都会返回一个[object NativeConstructorName]格式的字符串。而这个构造函数名由每个类内部的[[Class]]属性指定。这样做没有全局作用域的问题。
     
-**各数据类型知识点**
+**各数据类型知识点：**
 
 * Number
 ![](/assets/849589-20171013113026887-1981568120.png)
@@ -47,10 +47,10 @@ JS使用的是64位双精度浮点数。因为指数为11位，所以数值范�
 
 因为二进制和十进制相互换算时可能会出现无限循环，所以JS存在精度丢失，例如`0.1 + 0.2 != 0.3`
 
-**四舍五入方法**
+**四舍五入方法：**
 ceil，floor，round，toFixed，toPrecision
 
-**数值转换**
+**数值转换：**
 Number(value)，parseInt，parseFloat
 
 * String
@@ -78,11 +78,11 @@ Null表示一个对象被人为重置为空对象。所以`typeof null = 'object
 * Object
 引用类型除了Object本身，还有Array，RegExp，Date，Function。
 
-**对象拷贝**
+**对象拷贝：**
 浅拷贝/一级拷贝：`Object.assign`，`[].concat`
 深拷贝：Json序列化与反序列化，但是会忽略掉值为undefined的属性和函数表达式
 
-**属性类型**
+**属性类型：**
 属性类型包括数据属性和访问器属性两种，都需要通过`Object.defineProperty`来设置。这些内部特性都是用来实现JS引擎的，因此不能直接访问。
 
     * 数据属性
