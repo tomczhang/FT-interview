@@ -8,7 +8,7 @@
   * [原型链](chapter1/yuan-xing-lian.md)
   * [继承](chapter1/ji-cheng.md)
 * [HTML](html.md)
-  * [页面渲染](html/ye-mian-xuan-ran.md)
+* [HTTP](http.md)
 * [框架](kuang-jia.md)
   * [React](kuang-jia/react.md)
   * Vue
