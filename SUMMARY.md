@@ -8,5 +8,9 @@
   * [原型链](chapter1/yuan-xing-lian.md)
   * [继承](chapter1/ji-cheng.md)
 * [HTML](html.md)
+* [框架](kuang-jia.md)
+  * [React](kuang-jia/react.md)
+  * Vue
 * [备注草稿](bei-zhu-cao-gao.md)
+* [两周准备计划](liang-zhou-zhun-bei-ji-hua.md)
 
