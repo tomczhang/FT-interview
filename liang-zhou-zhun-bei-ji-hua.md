@@ -8,6 +8,7 @@
 
 2）面经期 7月26-29
 搜索能遇看到的面经，疯狂做题
+在kanzhun上刷题，https://www.kanzhun.com/gsmsh10750688.html
 3）准备期 7月30-31
 投简历并准备star问题
 
