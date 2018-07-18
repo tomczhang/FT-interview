@@ -7,7 +7,7 @@
   * [严格模式](yan-ge-mo-shi.md)
   * [原型链](chapter1/yuan-xing-lian.md)
   * [继承](chapter1/ji-cheng.md)
-* [HTTP](http.md)
+* [HTTP&HTML](http.md)
 * [框架](kuang-jia.md)
   * [React](kuang-jia/react.md)
   * Vue
