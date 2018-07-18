@@ -66,5 +66,16 @@ Doctype声明告知浏览器哪种HTML或XHTML规范解析页面。
 
 html4基于SGML（标准通用标记语言），所以要用DTD（文档类型定义）进行引用。
 
-### 7. 
+### 7. HTML5新特性
+* 新的选择器document.querySelector/All
+* 拖拽api
+* Canvas
+* Video, audio
+* 离线存储
+* 语义化标签
+* 增强表单控件
+* 地理位置Geolocation
+* 双工通信协议websocket
+* 多任务weworker
+
 
