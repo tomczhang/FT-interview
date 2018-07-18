@@ -76,6 +76,9 @@ html4基于SGML（标准通用标记语言），所以要用DTD（文档类型�
 * 增强表单控件
 * 地理位置Geolocation
 * 双工通信协议websocket
-* 多任务weworker
+* 多任务web
+
+
+worker
 
 
