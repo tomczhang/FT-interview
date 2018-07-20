@@ -41,8 +41,22 @@ BFC的生成条件：
 * flexible: 为了解决小于1px的展示问题。将视口分成了10rem。不兼容响应式布局。
 * vw: flexible是vw的hack写法。Viewport Units Buggyfill用来做android兼容。
 
-### 4. CSS垂直居中
-
+### 4. CSS水平/垂直居中
+* 水平居中方法
+    * text-align:center;
+    * margin: 0 auto;
+    * 有固定宽度，position:relative;left:50%;margin-left: -1/2宽度;
+    * CSS3，position:relative;left:50%;transform:translateX(-50%);
+* 垂直居中方法：
+    * vertical-align:middle;
+    * line-height和height同高
+    * display:flex;align-items:center;
+    * CSS3，position:relative;top:50%;transform:translateY(-50%);
+    * 有固定高度，postion:absolute/fixed;top:50%;margin-top: -1/2高度;
+    * display:table-cell;vertical-align:middle;
+    *    parent:after {content:'';display:inlineblock;verticalalign:middle;height:100%;width:0}
+    
+    son {display:inline-block;vertical-align:middle}
 
 ### 5. CSS预处理器
 
