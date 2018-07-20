@@ -1,8 +1,14 @@
 ### 1. CSS盒子模型
+标准盒子模型，怪异盒子模型，border-sizing：border-box
+
+弹性盒子模型：
+flex-direction,flex-wrap,justify-content:space-between,align-items:center,flex-grow，flex:2 1
 
 ### 2. CSS3新特性
 
+
 ### 3. 页面自适应，响应式设计
+
 
 ### 4. CSS垂直居中
 
