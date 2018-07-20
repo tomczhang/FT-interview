@@ -23,8 +23,7 @@ BFC的生成条件：
 方法如下：
 * 父元素BFC overflow:hidden
 * 新增底部兄弟元素 clear:both 块级元素的左右都不能有浮动元素
-* 添加自身伪元素
-
+* 添加自身伪元素 伪元素是元素的子元素，在元素的内容之前或者之后
 
 ```
 .clearfix::after {
@@ -33,14 +32,14 @@ BFC的生成条件：
     clear: both;    
 }
 ```
+### 3. 页面自适应/响应式设计/移动适配
+设置理想视口：
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-
-
-
-
-
-### 3. 页面自适应，响应式设计
-
+方法：
+* rem: fontSize = window.innerWidth / 7.5 + 'px'
+* flexible: 为了解决小于1px的展示问题。将视口分成了10rem。不兼容响应式布局。
+* vw: flexible是vw的hack写法。Viewport Units Buggyfill用来做android兼容。
 
 ### 4. CSS垂直居中
 
