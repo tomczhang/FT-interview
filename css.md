@@ -4,7 +4,8 @@
 弹性盒子模型：
 flex-direction,flex-wrap,justify-content:space-between,align-items:center,flex-grow，flex:2 1
 
-### 2. CSS3新特性
+### 2. BFC
+
 
 
 ### 3. 页面自适应，响应式设计
