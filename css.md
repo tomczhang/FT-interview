@@ -7,7 +7,11 @@ border-sizing：border-box；可以用来设置怪异盒子模型。
 弹性盒子模型：
 flex-direction：row/column;
 flex-wrap：no-wrap/warp;
-justify-content:space-between/flex-start/space,align-items:center,flex-grow，flex:2 1
+justify-content:space-between/flex-start/space-around;
+align-items:center/flex-start
+flex-grow: 剩余空间扩展比例，0不扩展，同为1等分，2会占等分的两份
+flex-shrink: 空间不够时的收缩比例，0不收缩，同为1收缩同样的比例。
+flex:2 1 缩写代表flex-grow:2;flex-shrink:1
 
 ### 2. BFC
 BFC: 块级格式上下文。BFC就是一个页面上独立的容器，规定了内部的块级元素如何布局，并且这些块级元素不会影响外部元素。
@@ -22,7 +26,7 @@ BFC的生成条件：
 * overflow不为visible
 * float不为none
 * position属性为absolute/fixed
-* display为inline-block, table-cell, table-caption, flex, inline-flex
+* display为inline-block, table-cell, flex
 
 ### 3. 清除浮动
 方法如下：
