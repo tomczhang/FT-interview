@@ -5,7 +5,9 @@
 border-sizing：border-box；可以用来设置怪异盒子模型。
 
 弹性盒子模型：
-flex-direction,flex-wrap,justify-content:space-between,align-items:center,flex-grow，flex:2 1
+flex-direction：row/column;
+flex-wrap：no-wrap/warp;
+justify-content:space-between/flex-start/space,align-items:center,flex-grow，flex:2 1
 
 ### 2. BFC
 BFC: 块级格式上下文。BFC就是一个页面上独立的容器，规定了内部的块级元素如何布局，并且这些块级元素不会影响外部元素。
