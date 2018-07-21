@@ -103,7 +103,7 @@ BFC的生成条件：
         border-bottom: 100px solid red;
     }
     ```
-    * 利用
+    * 利用transform rotate: transform: rotate(45deg);
 
 ### 8. 伪类/伪元素
 > 伪类：伪类用于当已有元素处于的某个状态时，为其添加对应的样式，这个状态是根据用户行为而动态变化的。
