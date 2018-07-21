@@ -77,6 +77,8 @@ Undefined表示一个变量最原始的状态，没有赋值的变量都是undef
 * Null
 Null表示一个对象被人为重置为空对象。所以`typeof null = 'object'`但是它本身并不是以Object为原型建立的，所以`null instanceof Object`是false。
 
+[0]/null/undefined/0
+
 
 * Symbol
 表示独一无二的值，可以接收一个参数，用于区分 `let s = Symbol('test')`。Symbol作为属性名，只会被`Object.getOwnPropertySymnbols`方法返回，不会被`for...of`或`for...in`返回。
