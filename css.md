@@ -89,7 +89,21 @@ BFC的生成条件：
 * 减少重绘
 * 不用CSS filters，少用transform，box-shadows
 
-### 7. 写一个轮播，写一个三角形
+### 7. 全屏滚动/轮播/三角形
+* 全屏滚动：父元素overflow:hidden，设置视口的top值
+* 轮播：css实现动画；js控制操作
+* 三角形：
+    * 利用border实现
+    ```
+    .triangle{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid red;
+    }
+    ```
+    * 利用
 
 ### 8. 伪类/伪元素
 > 伪类：伪类用于当已有元素处于的某个状态时，为其添加对应的样式，这个状态是根据用户行为而动态变化的。
