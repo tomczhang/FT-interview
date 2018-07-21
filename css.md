@@ -58,8 +58,17 @@ BFC的生成条件：
     
     son {display:inline-block;vertical-align:middle}
 
-### 5. CSS预处理器
+### 5. CSS预处理器/后处理器
+**预处理器：less, sass**
+作用：
+* 增加复用性：定义变量，混合宏mixin，继承
+* 增加便利性：添加前缀，自动添加兼容性，函数式使用，递归式定义
 
+**后处理器：postcss**
+作用：
+* 针对浏览器兼容 postnext, autoprefix
+* 针对css优化 cssnano
+* 提高开发效率
 
 ### 6. CSS优化
 
