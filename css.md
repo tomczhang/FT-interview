@@ -1,5 +1,8 @@
 ### 1. CSS盒子模型
-标准盒子模型，怪异盒子模型，border-sizing：border-box
+标准盒子模型：盒子占位width = content + 2margin + 2padding + 2border
+怪异盒子模型：盒子占位width = content + 2margin。content部分包含了 border 和 pading。
+
+border-sizing：border-box；可以用来设置怪异盒子模型。
 
 弹性盒子模型：
 flex-direction,flex-wrap,justify-content:space-between,align-items:center,flex-grow，flex:2 1
