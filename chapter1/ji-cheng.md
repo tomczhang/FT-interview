@@ -5,6 +5,6 @@
 3. es6继承的实现
 4. es6继承与es5继承的区别
 5. es6继承的优缺
-6. apply/call/super/this
+6. apply/call/super/this/new
 
 
