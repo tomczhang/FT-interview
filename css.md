@@ -85,7 +85,7 @@ BFC的生成条件：
 * 首屏CSS拆分
 * 尽量使用最准确的选择器
 * 避免使用后代选择器
-* 减少重排：不要使用table布局，大量DOM操作离线处理，不要随便改变dom树的结构
+* 减少重排：不要使用table布局，大量DOM操作离线处理，css合并缩写
 * 减少重绘
 * 不用CSS filters，少用transform，box-shadows
 
