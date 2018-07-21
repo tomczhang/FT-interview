@@ -6,5 +6,7 @@
 4. es6继承与es5继承的区别
 5. es6继承的优缺
 6. apply/call/super/this/new
+7. 如何判断对象是否属于某个类
+
 
 
