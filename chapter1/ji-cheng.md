@@ -42,7 +42,12 @@ JS的继承分为6种，分别是：
     缺点：父类实例的constructor会和子类实例的constructor保持统一。
 
 * 寄生组合继承：
-    核心：
+    核心：其他完全与组合继承一致，只是最后的原型链部分改为
+    Sub.prototype = Object.create(Super.prototype);父子类原型不是同一个了，不会出现组合继承的问题
+    优点：完美
+    
+
+    
     
     
 
