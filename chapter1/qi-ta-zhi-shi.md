@@ -37,6 +37,17 @@ ES6的参数默认赋值对于argumengts没有影响。
 * Array.prototype.slice.call(arguments）
 * Array.from(arguments)
 
+### 11. apply/call
+
+js中使用apply/call来改变函数运行时的上下文。
+
+区别：使用时除了要传作用域以外，call还要传具体数量的参数，apply则可以使用arguments。
+
+
+
+
+
+
 
 
 
