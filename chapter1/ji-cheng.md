@@ -6,7 +6,7 @@ JS的继承分为6种，分别是：
 
 
 
-apply/call: 改变函数运行时的上下文。使用时除了要穿作用域意外，call还要传具体数量的参数，apply则可以使用arguments。
+apply/call: 改变函数运行时的上下文。使用时除了要穿作用域以外，call还要传具体数量的参数，apply则可以使用arguments。
 
 
 
