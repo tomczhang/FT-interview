@@ -17,3 +17,6 @@
 * Object.prototype.__proto__ === null ，说明原型链到Object.prototype终止。* 
 
 注意：重写原型对象会切断构造函数和最初原型链之间的联系，导致构造函数指向新的原型，而实例还指向老的原型。
+
+### 6. 继承
+见 https://segmentfault.com/a/1190000015727237
