@@ -6,7 +6,6 @@
   * [作用域](chapter1/zuo-yong-yu.md)
   * [严格模式](yan-ge-mo-shi.md)
   * [原型链](chapter1/yuan-xing-lian.md)
-  * [继承](chapter1/ji-cheng.md)
   * [事件与事件循环](chapter1/shi-jian.md)
   * [其他知识](chapter1/qi-ta-zhi-shi.md)
 * [HTTP&HTML](http.md)
