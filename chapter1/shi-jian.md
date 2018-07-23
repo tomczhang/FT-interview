@@ -13,6 +13,7 @@ DOMContentLoaded: DOM结构绘制完毕后就触发，如同$(document).ready()
 
 ### 8. 缓存
 
+BFcache
 
 
 
