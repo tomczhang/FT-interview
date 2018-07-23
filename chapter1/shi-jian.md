@@ -5,6 +5,6 @@
 事件冒泡：事件最开始以具体的元素接收，然后逐级向上传播到不具体的节点。
 事件捕获：事件最开始被不太具体的节点捕获，然后逐级向下传递给具体的节点。
 
-preventDefault(): 取消事件的默认行为
-stopPropagation(): 阻止事件的进一步捕获或冒泡
+event.preventDefault(): 取消事件的默认行为
+event.stopPropagation(): 阻止事件的进一步捕获或冒泡
 
