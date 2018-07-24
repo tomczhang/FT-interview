@@ -37,6 +37,9 @@ ES6的参数默认赋值对于argumengts没有影响。
 * Array.prototype.slice.call(arguments）
 * Array.from(arguments)
 
+arguments.callee 我是谁
+arguments.caller 谁调我
+
 
 
 
