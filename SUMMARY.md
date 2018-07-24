@@ -8,7 +8,7 @@
   * [原型链与继承](chapter1/yuan-xing-lian.md)
   * [事件](chapter1/shi-jian.md)
   * [其他知识](chapter1/qi-ta-zhi-shi.md)
-  * 性能
+  * [性能](chapter1/xing-neng.md)
 * [HTTP&HTML](http.md)
 * [CSS](css.md)
 * [框架](kuang-jia.md)
