@@ -27,18 +27,15 @@
 
 Object.is()
 
-### 10. arguments
-arguments是一个类数组，除了length之外没有数组的其他方法。每个js函数都有这样一个参数，用来表征传给这个函数的参数列表。
 
-严格模式下arguments和参数的值不会保持统一，混杂模式下则会保持统一。
-ES6的参数默认赋值对于argumengts没有影响。
 
-将arguments转为数组：
-* Array.prototype.slice.call(arguments）
-* Array.from(arguments)
 
-arguments.callee 我是谁   严格模式下不能使用
-arguments.caller 谁调我
+
+
+
+
+
+
 
 
 
