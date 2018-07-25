@@ -15,7 +15,14 @@
    * fetch默认不会带cookie
    * fetch不能进行请求进度的检测
    
+   
  * XHR
+   * readstate: 
+       * 0: 请求未初始化
+       * 1: 服务器连接已建立
+       * 2: 请求已接收
+       * 3: 请求处理中
+       * 4: 请求已完成，且响应已就绪
    ```
    var xhr;
     if(window.XMLHttpRequest){
