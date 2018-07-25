@@ -36,7 +36,7 @@ close callbacks：执行close事件的callback，例如socket.on("close",func)
 ### 9. 异步
 回调，Generator，Promise，async/await
 
-Promise对象的三个状态：pending, fulfilled, rejected。Promise的特点是
+Promise对象是链式调用，它有三个状态：pending, fulfilled, rejected。Promise的特点是
 
 ```
 new Promise(
