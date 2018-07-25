@@ -36,6 +36,10 @@ close callbacks：执行close事件的callback，例如socket.on("close",func)
 ### 9. 异步
 回调，Generator，Promise，async/await
 
+Promise对象的三个状态：pending, fulfilled, rejected
+
+
+
 ### 8. 缓存
 
 浏览器缓存：bfcache
