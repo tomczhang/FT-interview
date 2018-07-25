@@ -9,6 +9,7 @@
   * [事件与缓存](chapter1/shi-jian.md)
   * [其他知识](chapter1/qi-ta-zhi-shi.md)
   * [性能](chapter1/xing-neng.md)
+  * [请求方式](chapter1/qing-qiu-fang-shi.md)
 * [HTTP&HTML](http.md)
 * [CSS](css.md)
 * [框架](kuang-jia.md)

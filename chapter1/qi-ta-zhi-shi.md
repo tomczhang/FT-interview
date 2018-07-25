@@ -1,8 +1,5 @@
 
 
-### 2. DOM
-* 得到一个DOM节点的绝对位置
-
 ### 4. 请求方式
 1. XHR/fetch/Axios
 2. 手写ajax/jsonp
