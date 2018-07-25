@@ -57,10 +57,6 @@ Promise.then()调用后返回Promise对象，并且then还可以接收两个函�
 Promise.catch()用来捕获异步操作出现的异常。
 Promise.all()/race()接收一个可迭代的参数，all返回一个数组，race返回第一个完成的值
 
-
-
-
-
 ### 8. 缓存
 
 浏览器缓存：bfcache
