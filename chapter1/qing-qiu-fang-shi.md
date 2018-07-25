@@ -15,5 +15,22 @@
    * fetch默认不会带cookie
    * fetch不能进行请求进度的检测
    
-   
-   
+ * XHR
+   ```
+   var xhr;
+    if(window.XMLHttpRequest){
+        xhr = new XMLHttpRequest();
+    }else{
+        xhr = new ActiveXObject('Microsoft.XMLHTTP');
+    }
+    //发送请求
+    xhr.open('get','/uploads/rs/26/ddzmgynp/message.xml',false);
+    xhr.send();
+    //同步接受响应
+    if(xhr.readyState == 4){
+        if(xhr.status == 200){
+            //实际操作
+            result.innerHTML += xhr.responseText;
+        }
+    }
+   ```
