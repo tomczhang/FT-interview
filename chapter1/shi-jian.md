@@ -36,7 +36,28 @@ close callbacks：执行close事件的callback，例如socket.on("close",func)
 ### 9. 异步
 回调，Generator，Promise，async/await
 
-Promise对象的三个状态：pending, fulfilled, rejected
+Promise对象的三个状态：pending, fulfilled, rejected。Promise的特点是
+
+```
+new Promise(
+    /* executor */
+    function(resolve, reject) {
+        if (/* success */) {
+            // ...执行代码
+            resolve();
+        } else { /* fail */
+            // ...执行代码
+            reject();
+        }
+    }
+);
+
+```
+Promise.then()调用后返回Promise对象，并且then还可以接收两个函数，一个用来处理成功，一个用来处理失败。
+Promise.catch()用来捕获异步操作出现的异常。
+Promise.all()/race()接收一个可迭代的参数，all返回一个数组，race返回第一个完成的值
+
+
 
 
 
