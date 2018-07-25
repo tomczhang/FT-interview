@@ -34,7 +34,7 @@ check：执行setImmediate的callback
 close callbacks：执行close事件的callback，例如socket.on("close",func)
 
 ### 9. 异步
-
+回调，Promise, async/await
 
 ### 8. 缓存
 
