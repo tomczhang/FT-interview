@@ -13,7 +13,7 @@ window.load: 会在页面一切资源家在完毕后触发
 DOMContentLoaded: DOM结构绘制完毕后就触发，如同$(document).ready()
 
 
-### 8. 事件循环
+### 8. 事件循环/异步
 
 
 ### 8. 缓存
