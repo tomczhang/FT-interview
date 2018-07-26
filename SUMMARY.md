@@ -11,6 +11,7 @@
   * [性能](chapter1/xing-neng.md)
   * [请求方式](chapter1/qing-qiu-fang-shi.md)
   * [垃圾回收与安全性](chapter1/nei-cun-kong-zhi-yu-la-ji-hui-shou.md)
+  * [设计模式](chapter1/she-ji-mo-shi.md)
 * [HTTP&HTML](http.md)
 * [CSS](css.md)
 * [框架](kuang-jia.md)
