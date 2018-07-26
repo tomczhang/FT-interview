@@ -10,7 +10,7 @@
   * [其他知识](chapter1/qi-ta-zhi-shi.md)
   * [性能](chapter1/xing-neng.md)
   * [请求方式](chapter1/qing-qiu-fang-shi.md)
-  * [内存控制与垃圾回收](chapter1/nei-cun-kong-zhi-yu-la-ji-hui-shou.md)
+  * [垃圾回收与安全性](chapter1/nei-cun-kong-zhi-yu-la-ji-hui-shou.md)
 * [HTTP&HTML](http.md)
 * [CSS](css.md)
 * [框架](kuang-jia.md)
