@@ -2,6 +2,7 @@
 
 #### 单例
 
+核心：使用闭包保存实例对象，若实例对象存在，则直接返回实例对象。
 ```
     class ProxysingletonCreateDiv {
         constructor(htmlStr) {
