@@ -2,19 +2,18 @@
 
 #### 单例
 
-
-```
-class ProxysingletonCreateDiv {
-    constructor(htmlStr) {
-        return ProxysingletonCreateDiv.getInstance(htmlStr);
-    }
-    static getInstance(name) {
-        if(!ProxysingletonCreateDiv.instance) {
-            ProxysingletonCreateDiv.instance = new CreateDiv(name)
+```ß
+    class ProxysingletonCreateDiv {
+        constructor(htmlStr) {
+            return ProxysingletonCreateDiv.getInstance(htmlStr);
         }
-        return ProxysingletonCreateDiv.instance;
+        static getInstance(name) {
+            if(!ProxysingletonCreateDiv.instance) {
+                ProxysingletonCreateDiv.instance = new CreateDiv(name)
+            }
+            return ProxysingletonCreateDiv.instance;
+        }
     }
-}
 ```
 
 
