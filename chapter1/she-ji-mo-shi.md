@@ -2,7 +2,7 @@
 
 #### 单例
 
-```ß
+```
     class ProxysingletonCreateDiv {
         constructor(htmlStr) {
             return ProxysingletonCreateDiv.getInstance(htmlStr);
@@ -15,7 +15,6 @@
         }
     }
 ```
-
 
 #### 工厂
 
