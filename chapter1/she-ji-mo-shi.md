@@ -22,3 +22,41 @@
 直接使用ES6继承实现
 
 #### 观察者
+核心：一个对象的变化需要通知其他对象。
+
+```
+class publisher {
+    constructor() {
+        this.subscribers = {
+            any: []
+        }
+    }
+    subscribe(fn, type = 'any') {
+        if (typeof this.subscribers[type] === 'undefined') {
+            this.subscribers[type] = []
+        }
+        this.subscribers[type].push(fn)
+    }
+    unsubscribe(fn, type) {
+        this.visitSubscribers('unsubscribe', fn, type)
+    }
+    publish(publication, type) {
+        this.visitSubscribers('publish', publication, type)
+    }
+    visitSubscribers(action, arg, type = 'any') {
+        this.subscribers[type].forEach((currentValue, index, array) => {
+            if (action === 'publish') {
+                currentValue(arg)
+            } else if (action === 'unsubscribe') {
+                if (currentValue === arg) {
+                    this.subscribers[type].splice(index, 1)
+                }
+            }
+        })
+    }
+}
+
+let publish = new publisher();
+
+```
+
