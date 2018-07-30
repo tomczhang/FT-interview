@@ -10,7 +10,10 @@ reduce(function(totol, item), totolInit)
 filter(function(item,index))
 * map:对数组中得每个元素进行处理，并返回处理后的数组
 map(function(item,index))
-
+* shift:删除并返回数组的第一个元素
+array.shift()
+* unshift:向数组的头部新增一个或多个元素，并返回新数组的长度
+array.unshift(newItem1,newItem2)
 
 
 
