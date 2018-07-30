@@ -8,7 +8,8 @@ CMD：延迟执行，依赖就近
 reduce(function(totol, item), totolInit)
 * filter:检测数组元素，返回符合条件的一个数组
 filter(function(item,index))
-
+* map:对数组中得每个元素进行处理，并返回处理后的数组
+map(function(item,index))
 
 
 
